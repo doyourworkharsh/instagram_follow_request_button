@@ -1,0 +1,61 @@
+html, body{
+    width: 100%;
+    height:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cornflowerblue;
+
+}
+
+
+.card{
+    width: 400px;
+    height: 500px;
+    border: 5px solid grey;
+    background-color:#DCEEF2;
+    border-radius: 10px;
+}
+
+.card img{
+    width:100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 12px;
+    
+   margin-right: 12px;
+
+    
+}
+
+#name{
+    display: flex;
+   justify-content: center;
+  
+  
+}
+
+
+#status{
+    display: flex;
+    justify-content: center;    
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#f2e9dc;
+    margin: 10px;
+    font-size: larger;
+
+}
